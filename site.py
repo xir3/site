@@ -14,7 +14,7 @@ if navigation == "Home":
     # Add an image with corrected path format and resized
     col1, col2 = st.columns([3, 1])  # Adjusted column ratios to prioritize text
     with col2:
-        st.image(r"E:\folder\ML-DA-DS\live\gitfolder\image.jpg", caption="Ritik Barnwal", use_column_width=True, width=100)  # Further reduced width
+        st.image(r"E:\folder\ML-DA-DS\live\gitfolder\site\image.jpg", caption="Ritik Barnwal", use_column_width=True, width=100)  # Further reduced width
     with col1:
         st.write("""
         Hello! I'm **Ritik Barnwal**, a passionate Data Scientist and Web Developer. I have a strong background in **_data analytics_**, **_machine learning_**, and **_web development_**.
