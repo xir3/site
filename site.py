@@ -2,7 +2,7 @@
 import streamlit as st
 
 # Set page title and layout
-st.set_page_config(page_icon="icon.jpg",page_title="My Portfolio", layout="wide")
+st.set_page_config(page_icon="icon.jpg",page_title="theritikbarnwal", layout="wide")
 
 # --- SIDEBAR ---
 st.sidebar.title("Navigation")  # This adds a clear label for navigation in the sidebar
