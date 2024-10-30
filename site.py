@@ -2,7 +2,7 @@
 import streamlit as st
 
 # Set page title and layout
-st.set_page_config(page_title="My Portfolio", layout="wide")
+st.set_page_config(page_icon="icon.jpg",page_title="My Portfolio", layout="wide")
 
 # --- SIDEBAR ---
 st.sidebar.title("Navigation")  # This adds a clear label for navigation in the sidebar
@@ -14,7 +14,7 @@ if navigation == "Home":
     # Add an image with corrected path format and resized
     col1, col2 = st.columns([3, 1])  # Adjusted column ratios to prioritize text
     with col2:
-        st.image(r"E:\folder\ML-DA-DS\live\gitfolder\site\image.jpg", caption="Ritik Barnwal", use_column_width=True, width=100)  # Further reduced width
+        st.image("image.jpg", caption="Ritik Barnwal", use_column_width=True, width=100)  # Further reduced width
     with col1:
         st.write("""
         Hello! I'm **Ritik Barnwal**, a passionate Data Scientist and Web Developer. I have a strong background in **_data analytics_**, **_machine learning_**, and **_web development_**.
@@ -24,7 +24,7 @@ if navigation == "Home":
         I am currently pursuing BCA in Data Science, and I have experience working on various projects involving data cleaning, automation, and machine learning. In addition, I enjoy working with **Python**, **SQL**, **Power BI**, and more.
         """)
 
-# --- SKILLS PAGE ---
+# --- SKILLS PAGE --- 
 elif navigation == "Skills":
     st.title("Skills")
     st.write("""
@@ -78,4 +78,4 @@ elif navigation == "Contact":
 
 st.divider()
 # Footer
-st.write("© 2024-26 My Portfolio")
+st.write("© 2024-25 My Portfolio")
